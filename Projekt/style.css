@@ -1,0 +1,108 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(Képek/háttér.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+}
+
+.hatter {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.277);
+    z-index: -100;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: italic;
+    pointer-events: none;
+}
+
+.navbar {
+    background-color: rgb(173, 0, 0);
+    box-shadow: inset 0px 0px 10px black, 0px 0px 10px black;
+    font-size: 2.1em;
+    color: black;
+}
+
+.dropdown-menu {
+    background-color: rgb(173, 0, 0);
+    border: none;
+}
+
+.dropdown-item {
+    font-size: 1.3em;
+}
+
+.dropdown-item:hover {
+    background-color: rgb(190, 0, 0);
+}
+
+h1 {
+    font-size: 4em;
+    color: white;
+}
+
+h2 {
+    font-size: 3em;
+    color: white;
+}
+
+#szoveg {
+    color: white;
+    font-size: 1.9em;
+    text-align: justify;
+}
+
+.card {
+    background-color: rgb(146, 0, 0);
+}
+
+.cardbtn {
+    background-color: black;
+    color: rgb(230, 0, 0);
+    border: 2px solid rgb(177, 0, 0);
+}
+
+.cardbtn:hover {
+    background-color: rgb(146, 0, 0);
+    color: white;
+    border: 2px solid black;
+}
+
+footer {
+    font-size: 1.9em;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+.cardkep {
+    max-height: 400px;
+    max-width: 400px;
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card-text {
+    font-size: 2em;
+    text-align: center;
+}
